@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.compliance.RuleEvaluatorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-09T11:41:11.836Z" hostname="users-MacBook-Air.local" time="0.031">
+  <properties/>
+  <testcase name="inMatchesQuotedCsvListValue()" classname="com.compliance.RuleEvaluatorTest" time="0.004"/>
+  <testcase name="utcHourRespectsOffset()" classname="com.compliance.RuleEvaluatorTest" time="0.001"/>
+  <testcase name="greaterThanIsStrict()" classname="com.compliance.RuleEvaluatorTest" time="0.004"/>
+  <testcase name="notEqualsWorks()" classname="com.compliance.RuleEvaluatorTest" time="0.002"/>
+  <testcase name="stringsAreCaseSensitive()" classname="com.compliance.RuleEvaluatorTest" time="0.002"/>
+  <testcase name="numericEqualsIgnoresScale()" classname="com.compliance.RuleEvaluatorTest" time="0.001"/>
+  <testcase name="sortsBreachesByRuleId()" classname="com.compliance.RuleEvaluatorTest" time="0.003"/>
+  <testcase name="returnsEmptyWhenNoBreach()" classname="com.compliance.RuleEvaluatorTest" time="0.002"/>
+  <testcase name="lessThanIsStrict()" classname="com.compliance.RuleEvaluatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

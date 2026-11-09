@@ -14,7 +14,7 @@ class ParserIntegrationTest {
   assertEquals(8, transactions.size()); assertEquals(8,rules.size());
   var expected = List.of(
    List.of("R001","R003","R006"),
-   List.of("R002","R005","R008"),
+   List.of("R002","R005","R007","R008"),
    List.of("R005"),
    List.of("R001","R002","R003","R006","R007"),
    List.of("R002","R008"),
