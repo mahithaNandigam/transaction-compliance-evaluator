@@ -1,0 +1,14 @@
+plugins { id 'java'; id 'application' }
+group = 'com.compliance'
+version = '1.0.0'
+repositories { mavenCentral() }
+java { toolchain { languageVersion = JavaLanguageVersion.of(21) } }
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.18.3'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.3'
+    implementation 'org.apache.commons:commons-csv:1.13.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+application { mainClass = 'com.compliance.Main' }
+tasks.named('test') { useJUnitPlatform() }
